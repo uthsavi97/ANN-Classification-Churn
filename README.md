@@ -60,11 +60,7 @@ The dataset consists of the following features:
    ```bash
    pip install -r requirements.txt
    ```
-2. Train the ANN model:
-   ```python
-   python train_model.py
-   ```
-3. Run the Streamlit app:
+2. Run the Streamlit app:
    ```bash
    streamlit run app.py
    ```
