@@ -1,14 +1,24 @@
-# ANN Classification - Churn Prediction
+# ANN-Classification-Churn Modelling
 
-## Overview
-This project demonstrates an end-to-end implementation of an Artificial Neural Network (ANN) model for churn prediction using the Churn dataset. It covers feature engineering, ANN model training, optimization, and deployment using Streamlit.
+## Project Overview
+This project demonstrates an end-to-end implementation of **Artificial Neural Networks (ANN)** for **Churn Prediction** using the **Churn Modelling dataset**. The process includes **data preprocessing, feature engineering, model building, training, evaluation, and deployment** using Streamlit.
 
-## Dataset
-The dataset consists of the following features:
-- **RowNumber, CustomerId, Surname** (Ignored in modeling)
-- **CreditScore, Age, Tenure, Balance, NumOfProducts, HasCrCard, IsActiveMember, EstimatedSalary** (Numerical features)
-- **Geography, Gender** (Categorical features converted to numerical values)
-- **Exited** (Target variable)
+## Dataset Overview
+The dataset consists of customer data from a bank, with the aim of predicting whether a customer will **churn** (exit) or not.
+
+### Features:
+- **RowNumber, CustomerId, Surname**: Identification columns (Dropped as they do not contribute to prediction)
+- **CreditScore**: Customer credit score
+- **Geography**: Categorical feature (Converted to numerical)
+- **Gender**: Categorical feature (Converted to numerical)
+- **Age**: Age of the customer
+- **Tenure**: Number of years with the bank
+- **Balance**: Account balance
+- **NumOfProducts**: Number of bank products used
+- **HasCrCard**: Whether the customer has a credit card (0/1)
+- **IsActiveMember**: Whether the customer is active (0/1)
+- **EstimatedSalary**: Salary estimate
+- **Exited**: Target variable (1 = Churn, 0 = Retain)
 
 ## Steps Involved
 
